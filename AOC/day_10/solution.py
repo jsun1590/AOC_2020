@@ -5,7 +5,7 @@ def part_1():
     prev = 0
     gaps = []
     for i in lines:
-        gaps.append(i-prev)
+		gaps.append(i-prev)
         prev = i
     return(gaps.count(1) * (gaps.count(3)+1))
 
